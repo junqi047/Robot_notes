@@ -1,7 +1,10 @@
 # ttyUSB-fixed
-THIS FILE PRESENTS HOW TO FIX A TTYUSB TO ANY SPECIFIC DEVICE.
-Connect with any device. Here is an example with respect to Ultrasonic.
-Open a terminal and enter "lsusb".
+THIS FILE PRESENTS HOW TO FIX A TTYUSB TO ANY SPECIFIC DEVICE.  
+
+Connect with any device. Here is an example with respect to Ultrasonic.  
+
+Open a terminal and enter "lsusb".  
+
 Write down the idVender and idProduct from the numbers in the yellow box, respectively, as follows:
 ![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/idVendor_and_idProduct.png)
 Go to the folder: /ect/udev/rules.d
