@@ -16,6 +16,7 @@ Write down the information which is presented in the red box as follows:
 
 Go to the folder: /ect/udev/rules.d  
 Then"ls", check the name of the rules.  
+
 ![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/address.png)  
 
 sudo gedit 71-persistent-net  
@@ -26,5 +27,7 @@ SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", SYMLINK+="U
 SUBSYSTEM=="tty", ENV{ID_PATH}=="pci-0000:02:10.0-usb-0:2.1:1.0", SYMLINK+="Ultrasonic"  
 
 Restart the USB and check the name according to "ls /dev".  
+
+![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/13.png)  
 
 
