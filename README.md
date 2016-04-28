@@ -12,7 +12,7 @@ In the terminal and enter "udevadm info /dev/ttyUSB0". The "ttyUSB*" depends on 
 
 Write down the information which is presented in the red box as follows:  
 
-![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/12.png)  
+![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/12.PNG)  
 
 Go to the folder: /ect/udev/rules.d  
 Then"ls", check the name of the rules.  
@@ -28,6 +28,6 @@ SUBSYSTEM=="tty", ENV{ID_PATH}=="pci-0000:02:10.0-usb-0:2.1:1.0", SYMLINK+="Ultr
 
 Restart the USB and check the name according to "ls /dev".  
 
-![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/13.png)  
+![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/13.PNG)  
 
 
