@@ -19,7 +19,7 @@ Then"ls", check the name of the rules.
 
 ![](https://github.com/junqi047/ttyUSB-fixed/raw/master/img/address.png)  
 
-sudo gedit 71-persistent-net  
+sudo gedit 77-ttyusb.rules  
 Follow the templet as follows:  
 
 KERNEL=="ttyUSB[0-9]*", MODE="0666"  
